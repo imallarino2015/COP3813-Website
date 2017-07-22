@@ -1,0 +1,122 @@
+h1{
+	text-align:center;
+}
+
+p{
+	padding:0;
+	margin:0;
+	text-indent:50px;
+}
+
+nav{
+	text-align:center;
+}
+
+body{
+	background:#dfdfdf;
+}
+
+code{
+	white-space:pre;
+}
+
+thead{
+	font-weight:bold;
+}
+
+a:hover{
+	background:#efefef;
+}
+
+table.sep{
+	text-align:center;
+	background:#ffffff;
+	border-collapse:collapse;
+}
+
+table.sep td{
+	border-style:solid;
+	border-color:#000000;
+	border-width:thin;
+	padding:0;
+}
+
+table.navigation{
+	margin-left:auto;
+	margin-right:auto;
+	border-width:thin;
+}
+
+table.invisAlign{
+	color:none;
+	text-align:left;
+	background:none;
+	margin-left:50px;
+}
+
+table.invisAlign td{
+	padding-right:10px;
+}
+
+.pageHead{
+	text-align:center;
+}
+
+.about{
+	font-family:times new roman;
+	font-weight:lighter;
+}
+
+div.popUp{
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,.5);
+	display:none;
+	position:fixed;
+}
+
+div.popUp form{
+	background-color:#eeeeee;
+	height:auto;
+	width:auto;
+	margin:auto;
+	top:35%;
+	left:38%;
+	position:inherit;
+	padding:10px;
+}
+
+.imgPost{
+	margin:auto;
+	width:50%;
+	text-align:center;
+}
+
+.imgPost img{
+	height:300px;
+	width:300px;
+}
+
+.pageNav{
+	margin:auto;
+	width:50%;
+	text-align:center;
+}
+
+ul{
+	margin:0;
+}
+
+ul.important li{
+	background-color:#ff0000;
+}
+
+ul.normal li{
+	background-color:#ffff00;
+}
+
+ul.complete li{
+	background-color:#ffffff;
+}

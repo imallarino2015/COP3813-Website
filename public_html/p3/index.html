@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+	<head>
+		<title>Project 3: Calculations</title>
+		<link href="../resources/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+		<link href="../resources/css/stylesheet.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<header>
+			<div class="pageHead">
+				<img src="images/banner.png" alt="Project 3">
+			</div>
+			<h1>Calculations</h1>
+				<script src="../resources/script/navBar.js"></script>
+		</header>
+		
+		<p>Following from the aforementioned formula given in the last project, this is a calculator.</p>
+		<p>The calculator below calculates all the necessary values and gives a necessary voltage based on those values.  Some calculations may change in the future depending on what changes in the calculations.  The numbers are still not what seem to be ideal, so there seems to be room for improvement.</p>
+		
+		
+		<table class="invisAlign">
+			<tr>
+				<td>Mass:</td>
+				<td><input type="text" id="mass" value="1"/>kg</td>
+			</tr>
+			<tr>
+				<td>Shaft radius:</td>
+				<td><input type="text" id="lRadius" value=".000001"/>m</td>
+			</tr>
+			<tr>
+				<td>Total radius of propeller:</td>
+				<td><input type="text" id="uRadius" value=".1"/>m</td>
+			</tr>
+			<tr>
+				<td>Time:</td>
+				<td><input type="text" id="time" value="1"/>s</td>
+			</tr>
+			<tr>
+				<td>Resistance:</td>
+				<td><input type="text" id="resistance" value="1"/>&ohm;</td>
+			</tr>
+			<tr>
+				<td>Number of blades:</td>
+				<td><input type="text" id="numOfProps" value="2"/></td>
+			</tr>
+			<tr>
+				<td colspan="2">If the angle and/or area varies across the propeller, use r as the distance from the center for the next two below where it applies.<br>
+				Syntax: '^': power, '*': multiplication, '/': division, '+': addition, '-': subtraction</td>
+			</tr>
+			<tr>
+				<td>Angle:</td>
+				<td><input type="text" id="angle" value="450*r+.1"/>&deg;</td>
+			</tr>
+			<tr>
+				<td>Area:</td>
+				<td><input type="text" id="area" value=".1"/>m<sup>2</sup></td>
+			</tr>
+		
+			<tr>
+				<td colspan="2"><input type="button" id="calc" value="Calculate"/></td>
+			</tr>
+		
+			<tr>
+				<td>Voltage:</td>
+				<td id="calculation"></td>
+			</tr>
+		</table>
+		<script src="script/calc.js"></script>
+		
+		<script src="../resources/script/footer.js"></script>
+	</body>
+</html>

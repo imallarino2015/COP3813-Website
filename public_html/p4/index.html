@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<head>
+		<title>Project 4: TODO list</title>
+		<link href="../resources/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+		<link href="../resources/css/stylesheet.css" type="text/css" rel="stylesheet"/>
+		<script src="../resources/script/jquery/jquery-3.1.1.js"></script>
+		
+	</head>
+	<body>
+		<header>
+			<div class="pageHead">
+				<img src="images/banner.png" alt="Project 4">
+			</div>
+			<h1>TODO List</h1>
+			<script src="../resources/script/navBar.js"></script>
+		</header>
+		
+		<h2>TODO: <span id="count"></span></h2>
+		
+		<p>Long press to remove or mark as complete.</p>
+		<p>Short press to edit or mark as incomplete.</p>
+		
+		<ul class="important">
+			<li>High</li>
+			<li>Priority</li>
+		</ul>
+		<ul class="normal">
+			<li>Low</li>
+			<li>Priority</li>
+		</ul>
+		<ul class="complete">
+			<li>Complete</li>
+		</ul>
+			
+		<button id="showForm">new item</button>
+		<form id="modifyList">
+			<table>
+				<tr>
+					<td><input type="text" placeholder="Task" /></td>
+					<td><input type="submit" id="adit" value="" /></td>
+				</tr>
+				<tr>
+					<td>Important?</td>
+					<td><input type="checkbox"/></td>
+				</tr>
+		</table>
+		</form>
+		
+		
+		
+		<script src="script/list.js"></script>
+		<script src="../resources/script/footer.js"></script>
+	</body>
+</html>
