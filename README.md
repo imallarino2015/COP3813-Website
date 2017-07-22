@@ -15,4 +15,4 @@ p5 introduces the server-side element of the web languages via php.
 
 p6 works with mysql and database handling.
 
-p7 is a final compilation of all of the aforementioned languages to create a site complete with minor security, user-uploaded content, and dynamic handling of web elements.
+p7 is a final compilation of all of the aforementioned languages to create a site complete with minor security, user-uploaded content, account-specific pages, and dynamic handling of web elements.
